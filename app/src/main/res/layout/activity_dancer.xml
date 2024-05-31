@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DancerActivity"
+    android:background="@color/colorPrimary"
+    android:id="@+id/main_layout">
+
+    <ImageView
+        android:id="@+id/dvd_yellow"
+        android:layout_width="120px"
+        android:layout_height="70px"
+        android:contentDescription="@string/dvd_image"
+        android:src="@drawable/dvd_yellow" />
+
+</RelativeLayout>
